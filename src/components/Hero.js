@@ -1,15 +1,19 @@
 import React from 'react';
 // import './Hero.css'; // Create this CSS file for styling
-import '../App.css';
+import './Hero.css';
 function Hero() {
   return (
     <section id="detail" className="hero">
-      <h1>Hi,<br /> I am Santosh Baral</h1>
-      <h2>Computer Engineer</h2>
-      <div className="imgborder">
-        <img id="imgsan" src="./santosh.jpg" alt="Santosh" />
+      <div className='contain'>
+        <h2>Hi,</h2><h1 className='Name'>I am Santosh Baral</h1>
+        <h5 >Computer Engineer</h5>
+        <a href="https://bit.ly/3Ivw4IS" id="downcv">Download CV</a>
       </div>
-      <a href="https://bit.ly/3Ivw4IS" id="downcv">Download CV</a>
+      <div className="imgborder">
+          <img id="imgsan" src="./1.png" alt="Santosh" />
+      </div>
+      
+      
     </section>
   );
 }

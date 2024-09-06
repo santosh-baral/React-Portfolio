@@ -1,6 +1,7 @@
 import React from 'react';
 // import './Header.css'; // Make sure to create a separate CSS file or include styles
-import '../App.css';
+import './Header.css';
+import { Link } from 'react-router-dom';
 function Header() {
   return (
     <nav className="bar">

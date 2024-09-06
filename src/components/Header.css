@@ -1,0 +1,32 @@
+.bar{
+ 
+    /* position:sticky;
+    z-index: 1; */
+    display: flex;
+    width: 100%;
+    top: 0;
+    height: 45px;
+    
+    
+  }
+  .bar ul{
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+  
+  }
+  nav ul li{
+    margin: 0 1rem;
+    margin-top: 12px;
+    padding: 1rms;
+  }
+  nav ul li a{
+    color: #2c3e50;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  nav  ul li a:hover{
+    color: #49b2f8;
+  }

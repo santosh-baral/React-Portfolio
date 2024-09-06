@@ -111,21 +111,22 @@
 
 // export default App;
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
 import Contact from './components/Contact';
-import SocialLinks from './components/SocialLinks';
+import SocialLinks from './components/Footer';
 
 function App() {
   return (
-    <div className="body">
-      <Header />
-      <Hero />
-      <SocialLinks />
-      <About />
-      <Contact />
-    </div>
+        <div className="body">
+        <Header />
+        <Hero />
+        <About />
+        <Contact />
+        <SocialLinks />
+        </div>
   );
 }
 
