@@ -1,0 +1,16 @@
+.icons{
+    margin-left: 39%;
+    margin-top: 4%;
+}
+.icons img{
+    height: 40px;
+    width: 40px;
+    padding-left: 10px;
+    justify-content: space-between;
+    display: inline-block;
+    color: rgb(250, 249, 249);
+}
+.icons p{
+    margin-left: 5%;
+    padding-top: 1%;
+}
