@@ -1,0 +1,61 @@
+.form{
+    margin-left: 10%;
+    padding: 3% 1% 4% 5% ;
+    
+  
+  }
+  .form p{
+    font-size: 18px;
+    font-family: sans-serif;
+  }
+  .text {
+    margin-top: 1%;
+    font-size: 17px;
+   
+  }
+  
+#name{
+    margin-top: 0.7%;
+    height: 8%;
+    width:95%;
+    border-radius: 5px;
+    font-size: 20px;
+    
+    
+  }
+  #email{
+    margin-top: 0.7%;
+    height: 8%;
+    width:95%;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  #message{
+    margin-top: 0.7%;
+    height: 40%;
+    width:95%;
+    max-width: 95%;
+    max-height:100%;
+    border-radius: 5px;
+    font-size: 20px;
+  
+  }
+  ::placeholder{
+    font-size: 18px;
+    color: rgb(7, 6, 6);
+    margin-left: 3%;
+  }
+  
+  input[type="submit"]{
+    margin-top: 5%;
+    width: 25%;
+    height: 10%;
+    border: 2px solid;
+    background: rgb(160, 3, 250);
+    border-radius: 18px;
+    font-size: 130%;
+    color: #fcf8ff;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+  }
